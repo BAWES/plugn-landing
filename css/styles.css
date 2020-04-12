@@ -145,24 +145,24 @@ a.white {
 }
 
 .blue {
-	color: #ffffff;
+	color: black;
 }
 
 .btn-solid-reg {
 	display: inline-block;
 	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
-	border: 0.125rem solid #ffffff;
+	border: 0.125rem solid #000;
 	border-radius: 2rem;
-	background-color: #ffffff;
-	color: #fff;
+	background-color: transparent;
+	color: #000;
 	font: 700 0.875rem/0 "Open Sans", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 .btn-solid-reg:hover {
-	background-color: transparent;
-	color: #ffffff;
+	color: green;
+    border-color: green;
 	text-decoration: none;
 }
 
@@ -925,7 +925,7 @@ input[type='checkbox'] {
 .tabs .nav-link:hover,
 .tabs .nav-link.active {
 	background: transparent;
-	color: #ffffff;
+	color: green;
 }
 
 .tabs .nav-link .fas {
@@ -937,7 +937,7 @@ input[type='checkbox'] {
 }
 
 .tabs .list-unstyled .fas {
-	color: #ffffff;
+	color: #000;
 	font-size: 0.5rem;
 	line-height: 1.625rem;
 }
@@ -1033,12 +1033,12 @@ input[type='checkbox'] {
 	position: relative;
 	width: auto;
 	height: auto;
-	color: #fff;
+	color: #000;
 	opacity: 1;
 }
 
 .lightbox-basic .btn-solid-reg.mfp-close:hover {
-	color: #ffffff;
+	color: green;
 }
 /* end of signup Button */
 
@@ -1853,7 +1853,7 @@ a:hover.back-to-top {
 
 	.tabs .nav-link:hover,
 	.tabs .nav-link.active {
-		border-bottom: 2px solid #ffffff;
+		border-bottom: 2px solid green;
 	}
 
 	.tabs .image-container {
